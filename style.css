@@ -6,6 +6,7 @@
 
 html {
   font-size: 20px;
+  --generated-color: #ff8400;
 }
 
 h1 {
@@ -16,5 +17,10 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff8400;
+  background-color: var(--generated-color);
+}
+
+.list-item {
+  font-family: monospace;
+  background-color: var(--generated-color);
 }
